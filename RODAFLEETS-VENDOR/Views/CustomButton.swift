@@ -19,7 +19,7 @@ class CustomButton: UIButton {
     }
     func applyDesign() {
         
-        self.backgroundColor = UIColor(displayP3Red: 250/255, green: 181/255, blue: 23/255, alpha: 1.0)
+        self.backgroundColor = UIColor(displayP3Red: 252/255, green: 154/255, blue: 0/255, alpha: 1.0)
         self.layer.cornerRadius = self.frame.height / 2
         self.layer.shadowColor = UIColor.lightGray.cgColor
         self.layer.shadowOpacity = 0.8

@@ -295,8 +295,8 @@
                             <rect key="frame" x="141.5" y="2" width="92" height="40"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find Loads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0g-fw-UY2">
-                                    <rect key="frame" x="0.0" y="9" width="82" height="17"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FIND LOADS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0g-fw-UY2">
+                                    <rect key="frame" x="0.0" y="9" width="94" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="Bahnschrift" family="Bahnschrift" pointSize="17"/>
                                     <nil key="textColor"/>
@@ -320,7 +320,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wkw-B3-xAo" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2303" y="1176"/>
+            <point key="canvasLocation" x="2002" y="1195"/>
         </scene>
         <!--Notification View Controller-->
         <scene sceneID="Y37-60-tdS">
@@ -334,7 +334,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellNotification" rowHeight="100" id="NCG-co-rlJ" customClass="NotificationTableViewCell" customModule="RODAFLEETS_VENDOR" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellNotification" rowHeight="100" id="NCG-co-rlJ" customClass="NotificationTableViewCell" customModule="RODAFLEETS_VENDOR" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NCG-co-rlJ" id="Lw2-cf-NcJ">
@@ -399,11 +399,11 @@
                     <navigationItem key="navigationItem" id="LKK-hp-g4L">
                         <nil key="title"/>
                         <view key="titleView" contentMode="scaleToFill" id="uSc-MW-dOC">
-                            <rect key="frame" x="139.5" y="2" width="96" height="40"/>
+                            <rect key="frame" x="139.5" y="2" width="118" height="40"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogj-Ot-2F5">
-                                    <rect key="frame" x="0.0" y="9" width="96" height="17"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOTIFICATIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogj-Ot-2F5">
+                                    <rect key="frame" x="0.0" y="9" width="118" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="Bahnschrift" family="Bahnschrift" pointSize="17"/>
                                     <nil key="textColor"/>
@@ -2445,7 +2445,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NFf-c6-2Ry" customClass="CustomBorderView" customModule="RODAFLEETS_VENDOR" customModuleProvider="target">
                                                 <rect key="frame" x="142.5" y="75" width="90" height="90"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roda" translatesAutoresizingMaskIntoConstraints="NO" id="SH7-cB-kfF">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roda" translatesAutoresizingMaskIntoConstraints="NO" id="SH7-cB-kfF">
                                                         <rect key="frame" x="10" y="10" width="70" height="70"/>
                                                     </imageView>
                                                 </subviews>
