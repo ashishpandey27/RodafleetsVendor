@@ -7,6 +7,7 @@ target 'RODAFLEETS-VENDOR' do
 
   # Pods for RODAFLEETS-VENDOR
 pod 'IQKeyboardManagerSwift'
+ pod 'MarqueeLabel/Swift'
 
   target 'RODAFLEETS-VENDORTests' do
     inherit! :search_paths

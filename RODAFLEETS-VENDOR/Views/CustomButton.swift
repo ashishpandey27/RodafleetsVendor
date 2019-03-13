@@ -15,21 +15,18 @@ class CustomButton: UIButton {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        if shadowLayer == nil {
-            shadowLayer = CAShapeLayer()
-            shadowLayer.path = UIBezierPath(roundedRect: bounds, cornerRadius: 20).cgPath
-            shadowLayer.fillColor = UIColor(displayP3Red: 252/255, green: 154/255, blue: 2/255, alpha: 1.0).cgColor
-            
-            shadowLayer.shadowColor = UIColor.darkGray.cgColor
-            shadowLayer.shadowPath = shadowLayer.path
-            shadowLayer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-            shadowLayer.shadowOpacity = 0.8
-            shadowLayer.shadowRadius = 2
-            
-            layer.insertSublayer(shadowLayer, at: 0)
-            // layer.insertSublayer(shadowLayer, below: nil) // also works
-        }
+        applyDesign()
+    }
+    func applyDesign() {
+        
+        self.backgroundColor = UIColor(displayP3Red: 250/255, green: 181/255, blue: 23/255, alpha: 1.0)
+        self.layer.cornerRadius = self.frame.height / 2
+        self.layer.shadowColor = UIColor.lightGray.cgColor
+        self.layer.shadowOpacity = 0.8
+        self.layer.shadowRadius = 2
+        self.layer.shadowOffset = CGSize(width: 2, height: 2)
+        self.titleLabel?.font = UIFont(name: "bahnschrift", size: 15.0)
+        self.setTitle(self.titleLabel?.text?.uppercased(), for: UIControl.State.normal)
+      
     }
 }
-
-

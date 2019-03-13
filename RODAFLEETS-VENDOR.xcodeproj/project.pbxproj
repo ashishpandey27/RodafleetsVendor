@@ -15,14 +15,14 @@
 		8B2ECD4E221BF0C5000084DE /* RODAFLEETS_VENDORUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD4D221BF0C5000084DE /* RODAFLEETS_VENDORUITests.swift */; };
 		8B2ECD5D221BF13D000084DE /* bahnschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B2ECD5C221BF13D000084DE /* bahnschrift.ttf */; };
 		8B2ECD7D221BF154000084DE /* CustomTextfieldPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD5F221BF153000084DE /* CustomTextfieldPadding.swift */; };
-		8B2ECD7E221BF154000084DE /* BorderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD60221BF153000084DE /* BorderViews.swift */; };
+		8B2ECD7E221BF154000084DE /* CustomBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD60221BF153000084DE /* CustomBorderView.swift */; };
 		8B2ECD7F221BF154000084DE /* CustomViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD61221BF153000084DE /* CustomViewImage.swift */; };
 		8B2ECD80221BF154000084DE /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD62221BF153000084DE /* CustomButton.swift */; };
 		8B2ECD81221BF154000084DE /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD63221BF153000084DE /* CustomTextfield.swift */; };
 		8B2ECD82221BF154000084DE /* CustomTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD64221BF153000084DE /* CustomTopView.swift */; };
 		8B2ECD83221BF154000084DE /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD65221BF153000084DE /* CustomTextView.swift */; };
 		8B2ECD84221BF154000084DE /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD68221BF153000084DE /* DataCollectionViewCell.swift */; };
-		8B2ECD85221BF154000084DE /* LoadDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD69221BF153000084DE /* LoadDetailsViewController.swift */; };
+		8B2ECD85221BF154000084DE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD69221BF153000084DE /* HomeViewController.swift */; };
 		8B2ECD86221BF154000084DE /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD6A221BF153000084DE /* DataTableViewCell.swift */; };
 		8B2ECD87221BF154000084DE /* AddDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD6C221BF153000084DE /* AddDriverViewController.swift */; };
 		8B2ECD88221BF154000084DE /* DataArrayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD6D221BF153000084DE /* DataArrayCollectionViewCell.swift */; };
@@ -48,6 +48,17 @@
 		8BB7D894221EB05900F68254 /* SliderUnverifiedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7D893221EB05900F68254 /* SliderUnverifiedCollectionViewCell.swift */; };
 		8BB7D896221EB06D00F68254 /* SliderSelfVerifiedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7D895221EB06D00F68254 /* SliderSelfVerifiedCollectionViewCell.swift */; };
 		8BC90B7D221D4E6E00FFE226 /* SliderVerifiedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC90B7C221D4E6E00FFE226 /* SliderVerifiedCollectionViewCell.swift */; };
+		8BD224A52238D7710021C1B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224A42238D7710021C1B5 /* Constants.swift */; };
+		8BD224A72238D7800021C1B5 /* MyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224A62238D7800021C1B5 /* MyUtility.swift */; };
+		8BD224A92238D8590021C1B5 /* LoadDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224A82238D8590021C1B5 /* LoadDetailsViewController.swift */; };
+		8BD224AB2238D8FA0021C1B5 /* DistanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224AA2238D8FA0021C1B5 /* DistanceTableViewCell.swift */; };
+		8BD224AD2238D92F0021C1B5 /* ShipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224AC2238D92F0021C1B5 /* ShipmentTableViewCell.swift */; };
+		8BD224B12238EC720021C1B5 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224B02238EC710021C1B5 /* MarqueeLabel.swift */; };
+		8BD224B322390AFE0021C1B5 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224B222390AFE0021C1B5 /* BookingViewController.swift */; };
+		8BD224B622390D830021C1B5 /* BookingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224B522390D830021C1B5 /* BookingTableViewCell.swift */; };
+		8BD224B822390FEF0021C1B5 /* BookingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224B722390FEF0021C1B5 /* BookingDetailsViewController.swift */; };
+		8BD224BC223910B30021C1B5 /* ShipmentDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224BB223910B30021C1B5 /* ShipmentDetailsTableViewCell.swift */; };
+		8BD224BE223910C70021C1B5 /* DistanceDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD224BD223910C70021C1B5 /* DistanceDetailsTableViewCell.swift */; };
 		90A5C952B82C0AE1605B109F /* Pods_RODAFLEETS_VENDORTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCFD70E19FFB300DF66C28B /* Pods_RODAFLEETS_VENDORTests.framework */; };
 		DE63B0B7D61D0214212965B1 /* Pods_RODAFLEETS_VENDOR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5CA1B76D56127D640A2E91 /* Pods_RODAFLEETS_VENDOR.framework */; };
 		EC323760E9AEEF0C3BC9FF0B /* Pods_RODAFLEETS_VENDORUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7130E101F06DAEA8B73CC9FA /* Pods_RODAFLEETS_VENDORUITests.framework */; };
@@ -90,14 +101,14 @@
 		8B2ECD4F221BF0C5000084DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B2ECD5C221BF13D000084DE /* bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bahnschrift.ttf; sourceTree = "<group>"; };
 		8B2ECD5F221BF153000084DE /* CustomTextfieldPadding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfieldPadding.swift; sourceTree = "<group>"; };
-		8B2ECD60221BF153000084DE /* BorderViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderViews.swift; sourceTree = "<group>"; };
+		8B2ECD60221BF153000084DE /* CustomBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBorderView.swift; sourceTree = "<group>"; };
 		8B2ECD61221BF153000084DE /* CustomViewImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewImage.swift; sourceTree = "<group>"; };
 		8B2ECD62221BF153000084DE /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		8B2ECD63221BF153000084DE /* CustomTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
 		8B2ECD64221BF153000084DE /* CustomTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTopView.swift; sourceTree = "<group>"; };
 		8B2ECD65221BF153000084DE /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		8B2ECD68221BF153000084DE /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
-		8B2ECD69221BF153000084DE /* LoadDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDetailsViewController.swift; sourceTree = "<group>"; };
+		8B2ECD69221BF153000084DE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8B2ECD6A221BF153000084DE /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
 		8B2ECD6C221BF153000084DE /* AddDriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDriverViewController.swift; sourceTree = "<group>"; };
 		8B2ECD6D221BF153000084DE /* DataArrayCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataArrayCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -123,6 +134,17 @@
 		8BB7D893221EB05900F68254 /* SliderUnverifiedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUnverifiedCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BB7D895221EB06D00F68254 /* SliderSelfVerifiedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSelfVerifiedCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BC90B7C221D4E6E00FFE226 /* SliderVerifiedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVerifiedCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BD224A42238D7710021C1B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8BD224A62238D7800021C1B5 /* MyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtility.swift; sourceTree = "<group>"; };
+		8BD224A82238D8590021C1B5 /* LoadDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDetailsViewController.swift; sourceTree = "<group>"; };
+		8BD224AA2238D8FA0021C1B5 /* DistanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTableViewCell.swift; sourceTree = "<group>"; };
+		8BD224AC2238D92F0021C1B5 /* ShipmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentTableViewCell.swift; sourceTree = "<group>"; };
+		8BD224B02238EC710021C1B5 /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
+		8BD224B222390AFE0021C1B5 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		8BD224B522390D830021C1B5 /* BookingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTableViewCell.swift; sourceTree = "<group>"; };
+		8BD224B722390FEF0021C1B5 /* BookingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsViewController.swift; sourceTree = "<group>"; };
+		8BD224BB223910B30021C1B5 /* ShipmentDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		8BD224BD223910C70021C1B5 /* DistanceDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		A7375D3A32840814B5BD385A /* Pods-RODAFLEETS-VENDORUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-VENDORUITests.release.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-VENDORUITests/Pods-RODAFLEETS-VENDORUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CE52B145191340B6B9DD3E3D /* Pods-RODAFLEETS-VENDOR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-VENDOR.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-VENDOR/Pods-RODAFLEETS-VENDOR.debug.xcconfig"; sourceTree = "<group>"; };
 		E999AFE92ED6239802BF82FC /* Pods-RODAFLEETS-VENDORTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-VENDORTests.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-VENDORTests/Pods-RODAFLEETS-VENDORTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				8B2ECD2D221BF0C1000084DE /* AppDelegate.swift */,
+				8BD224B02238EC710021C1B5 /* MarqueeLabel.swift */,
+				8BD224A32238D7510021C1B5 /* Constants */,
 				8B2ECD5B221BF13D000084DE /* Font-Roda */,
 				8B2ECD5E221BF153000084DE /* Views */,
 				8B2ECD66221BF153000084DE /* Controllers */,
@@ -223,12 +247,12 @@
 		8B2ECD5E221BF153000084DE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8B2ECD64221BF153000084DE /* CustomTopView.swift */,
 				8B2ECD5F221BF153000084DE /* CustomTextfieldPadding.swift */,
-				8B2ECD60221BF153000084DE /* BorderViews.swift */,
+				8B2ECD60221BF153000084DE /* CustomBorderView.swift */,
 				8B2ECD61221BF153000084DE /* CustomViewImage.swift */,
 				8B2ECD62221BF153000084DE /* CustomButton.swift */,
 				8B2ECD63221BF153000084DE /* CustomTextfield.swift */,
-				8B2ECD64221BF153000084DE /* CustomTopView.swift */,
 				8B2ECD65221BF153000084DE /* CustomTextView.swift */,
 				8B2ECD95221C08CD000084DE /* CustomGradientView.swift */,
 			);
@@ -238,24 +262,28 @@
 		8B2ECD66221BF153000084DE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B2ECD67221BF153000084DE /* LoadDetails */,
+				8B2ECD67221BF153000084DE /* HomeControllers */,
+				8BD224B422390D5F0021C1B5 /* BookingControllers */,
+				8B2ECD77221BF153000084DE /* FindLoadControllers */,
 				8B2ECD6B221BF153000084DE /* DriversControllers */,
 				8B2ECD71221BF153000084DE /* TrucksControllers */,
-				8B2ECD77221BF153000084DE /* FindLoadControllers */,
 				8B2ECD79221BF153000084DE /* NotificationControllers */,
 				8B2ECD7C221BF154000084DE /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		8B2ECD67221BF153000084DE /* LoadDetails */ = {
+		8B2ECD67221BF153000084DE /* HomeControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8B2ECD69221BF153000084DE /* HomeViewController.swift */,
 				8B2ECD68221BF153000084DE /* DataCollectionViewCell.swift */,
-				8B2ECD69221BF153000084DE /* LoadDetailsViewController.swift */,
 				8B2ECD6A221BF153000084DE /* DataTableViewCell.swift */,
+				8BD224A82238D8590021C1B5 /* LoadDetailsViewController.swift */,
+				8BD224AA2238D8FA0021C1B5 /* DistanceTableViewCell.swift */,
+				8BD224AC2238D92F0021C1B5 /* ShipmentTableViewCell.swift */,
 			);
-			path = LoadDetails;
+			path = HomeControllers;
 			sourceTree = "<group>";
 		};
 		8B2ECD6B221BF153000084DE /* DriversControllers */ = {
@@ -264,8 +292,8 @@
 				8B2ECD70221BF153000084DE /* DriversViewController.swift */,
 				8B2ECD6D221BF153000084DE /* DataArrayCollectionViewCell.swift */,
 				8BB7D881221E8DE200F68254 /* DriverVerifiedCollectionViewCell.swift */,
-				8BB7D885221EA5E500F68254 /* DriverUnverifiedCollectionViewCell.swift */,
 				8BB7D889221EA9E100F68254 /* DriverVerifiedTableViewCell.swift */,
+				8BB7D885221EA5E500F68254 /* DriverUnverifiedCollectionViewCell.swift */,
 				8BB7D88B221EA9F200F68254 /* DriverUnVerifiedTableViewCell.swift */,
 				8B2ECD6C221BF153000084DE /* AddDriverViewController.swift */,
 				8B2ECD6E221BF153000084DE /* DriverDocumentsViewController.swift */,
@@ -302,10 +330,31 @@
 		8B2ECD79221BF153000084DE /* NotificationControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B2ECD7A221BF153000084DE /* NotificationTableViewCell.swift */,
 				8B2ECD7B221BF153000084DE /* NotificationViewController.swift */,
+				8B2ECD7A221BF153000084DE /* NotificationTableViewCell.swift */,
 			);
 			path = NotificationControllers;
+			sourceTree = "<group>";
+		};
+		8BD224A32238D7510021C1B5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8BD224A42238D7710021C1B5 /* Constants.swift */,
+				8BD224A62238D7800021C1B5 /* MyUtility.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8BD224B422390D5F0021C1B5 /* BookingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BD224B222390AFE0021C1B5 /* BookingViewController.swift */,
+				8BD224B522390D830021C1B5 /* BookingTableViewCell.swift */,
+				8BD224B722390FEF0021C1B5 /* BookingDetailsViewController.swift */,
+				8BD224BD223910C70021C1B5 /* DistanceDetailsTableViewCell.swift */,
+				8BD224BB223910B30021C1B5 /* ShipmentDetailsTableViewCell.swift */,
+			);
+			path = BookingControllers;
 			sourceTree = "<group>";
 		};
 		B2FDA9C8E6EA284A57C40B67 /* Pods */ = {
@@ -517,12 +566,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-VENDOR/Pods-RODAFLEETS-VENDOR-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -559,23 +610,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B2ECD81221BF154000084DE /* CustomTextfield.swift in Sources */,
-				8B2ECD7E221BF154000084DE /* BorderViews.swift in Sources */,
+				8BD224BC223910B30021C1B5 /* ShipmentDetailsTableViewCell.swift in Sources */,
+				8B2ECD7E221BF154000084DE /* CustomBorderView.swift in Sources */,
 				8B2ECD88221BF154000084DE /* DataArrayCollectionViewCell.swift in Sources */,
 				8B2ECD90221BF154000084DE /* TrucksDocumentViewController.swift in Sources */,
 				8B2ECD83221BF154000084DE /* CustomTextView.swift in Sources */,
 				8B2ECD96221C08CD000084DE /* CustomGradientView.swift in Sources */,
 				8BB7D88E221EAFCA00F68254 /* VerifiedTableViewCell.swift in Sources */,
+				8BD224B622390D830021C1B5 /* BookingTableViewCell.swift in Sources */,
 				8BB7D88A221EA9E100F68254 /* DriverVerifiedTableViewCell.swift in Sources */,
 				8BB7D882221E8DE200F68254 /* DriverVerifiedCollectionViewCell.swift in Sources */,
 				8BC90B7D221D4E6E00FFE226 /* SliderVerifiedCollectionViewCell.swift in Sources */,
 				8BB7D894221EB05900F68254 /* SliderUnverifiedCollectionViewCell.swift in Sources */,
-				8B2ECD85221BF154000084DE /* LoadDetailsViewController.swift in Sources */,
+				8B2ECD85221BF154000084DE /* HomeViewController.swift in Sources */,
 				8B2ECD7D221BF154000084DE /* CustomTextfieldPadding.swift in Sources */,
 				8BB7D890221EAFDD00F68254 /* UnVerifiedTableViewCell.swift in Sources */,
+				8BD224B822390FEF0021C1B5 /* BookingDetailsViewController.swift in Sources */,
+				8BD224A72238D7800021C1B5 /* MyUtility.swift in Sources */,
 				8BB7D892221EAFED00F68254 /* SelfVerifiedTableViewCell.swift in Sources */,
 				8B2ECD84221BF154000084DE /* DataCollectionViewCell.swift in Sources */,
+				8BD224AD2238D92F0021C1B5 /* ShipmentTableViewCell.swift in Sources */,
 				8BB7D88C221EA9F200F68254 /* DriverUnVerifiedTableViewCell.swift in Sources */,
 				8BB7D886221EA5E500F68254 /* DriverUnverifiedCollectionViewCell.swift in Sources */,
+				8BD224AB2238D8FA0021C1B5 /* DistanceTableViewCell.swift in Sources */,
 				8B2ECD8E221BF154000084DE /* AddTruckViewController.swift in Sources */,
 				8B2ECD93221BF154000084DE /* NotificationViewController.swift in Sources */,
 				8B2ECD80221BF154000084DE /* CustomButton.swift in Sources */,
@@ -586,13 +643,18 @@
 				8BB7D896221EB06D00F68254 /* SliderSelfVerifiedCollectionViewCell.swift in Sources */,
 				8B2ECD7F221BF154000084DE /* CustomViewImage.swift in Sources */,
 				8B2ECD8D221BF154000084DE /* TrucksViewController.swift in Sources */,
+				8BD224B12238EC720021C1B5 /* MarqueeLabel.swift in Sources */,
+				8BD224A92238D8590021C1B5 /* LoadDetailsViewController.swift in Sources */,
 				8B2ECD8F221BF154000084DE /* TrucksCollectionViewCell.swift in Sources */,
 				8B2ECD8B221BF154000084DE /* DriversViewController.swift in Sources */,
 				8B2ECD2E221BF0C1000084DE /* AppDelegate.swift in Sources */,
 				8BB7D87C221E80BD00F68254 /* TrucksVerifiedCollectionViewCell.swift in Sources */,
 				8B2ECD94221BF154000084DE /* SettingsViewController.swift in Sources */,
 				8B2ECD82221BF154000084DE /* CustomTopView.swift in Sources */,
+				8BD224BE223910C70021C1B5 /* DistanceDetailsTableViewCell.swift in Sources */,
 				8B2ECD89221BF154000084DE /* DriverDocumentsViewController.swift in Sources */,
+				8BD224B322390AFE0021C1B5 /* BookingViewController.swift in Sources */,
+				8BD224A52238D7710021C1B5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
