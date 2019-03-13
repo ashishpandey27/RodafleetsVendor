@@ -18,6 +18,7 @@ class BorderView: UIView {
         self.layer.borderWidth = 0.5
         self.layer.borderColor = UIColor.lightGray.cgColor
         self.layer.cornerRadius = 6.0
+        //DSA
         
         //self.layer.masksToBounds = true
     }
