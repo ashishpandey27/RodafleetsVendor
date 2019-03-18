@@ -17,6 +17,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     var begin : Bool = false
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,21 +25,22 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         tblviewOBJ.delegate = self
         tblviewOBJ.dataSource = self
         
-        viewFindLoads.layer.borderWidth = 0.5
-        viewFindLoads.layer.borderColor = UIColor.lightGray.cgColor
-        viewFindLoads.layer.cornerRadius = 8.0
+//        viewFindLoads.layer.borderWidth = 0.5
+//        viewFindLoads.layer.borderColor = UIColor.lightGray.cgColor
+//        viewFindLoads.layer.cornerRadius = 8.0
    
         tblviewOBJ.separatorStyle = .none
         lblRunningTest.type = .continuous
         // lblRunningTest.type = .continuousReverse
-        lblRunningTest.speed = .duration(15.0)
+        lblRunningTest.speed = .duration(25.0)
         // lblRunningTest.lineBreakMode = .byTruncatingHead
-        lblRunningTest.fadeLength = 15.0
-        lblRunningTest.leadingBuffer = 40.0
+        lblRunningTest.fadeLength = 0.0
+        lblRunningTest.leadingBuffer = 0.0
         
-        lblRunningTest.text  = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        lblRunningTest.text  = "Delhi-Jaipur Open-Container  ₹22,500 | Delhi-Jaipur Open-Container  ₹22,500 | Delhi-Jaipur Open-Container  ₹22,500 | Delhi-Jaipur Open-Container  ₹22,500 | Delhi-Jaipur Open-Container  ₹22,500 | Delhi-Jaipur Open-Container  ₹22,500 | Delhi-Jaipur Open-Container  ₹22,500 |"
         
         
+        setUpLeftNavigationBarItem()
         // Do any additional setup after loading the view.
     }
     
@@ -72,11 +74,24 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             let viewName:NSString = "LoadDetailsViewController"
             let vc = storyboard.instantiateViewController(withIdentifier: viewName as String) as! LoadDetailsViewController
             self.navigationController?.show(vc, sender: self)
-            
-     
-        }
+        
+    }
     
  
+    func setUpLeftNavigationBarItem() {
+        
+        let rodaButton = UIButton(type: .custom)
+        rodaButton.setImage(UIImage(named: "roda"), for: .normal)
+        rodaButton.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
+        rodaButton.translatesAutoresizingMaskIntoConstraints = false
+        rodaButton.widthAnchor.constraint(equalToConstant: 50).isActive = true
+        rodaButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        let barButtonRoda = UIBarButtonItem(customView: rodaButton)
+        self.navigationItem.leftBarButtonItem = barButtonRoda
+        
+        
+       
+    }
  
     
     
