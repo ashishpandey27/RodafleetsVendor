@@ -176,10 +176,8 @@ class TrucksViewController: UIViewController, UICollectionViewDataSource, UIColl
    
     
     @IBAction func btn_add_action(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil);
-        let viewName:NSString = "AddTruckViewController"
-        let vc = storyboard.instantiateViewController(withIdentifier: viewName as String) as! AddTruckViewController
-        self.navigationController?.show(vc, sender: self);
+        
+         MyUtility.showController(selfController: self, storyboard: StoryboardName.Dashboard, identifier: ViewIdentifiers.AddTruck)
     }
     
 

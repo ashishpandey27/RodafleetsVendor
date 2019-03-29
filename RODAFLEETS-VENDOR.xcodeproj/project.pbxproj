@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1A7465224BA053000188F1 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7464224BA053000188F1 /* CustomDatePicker.swift */; };
 		8B2ECD2E221BF0C1000084DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD2D221BF0C1000084DE /* AppDelegate.swift */; };
-		8B2ECD33221BF0C1000084DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2ECD31221BF0C1000084DE /* Main.storyboard */; };
+		8B2ECD33221BF0C1000084DE /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2ECD31221BF0C1000084DE /* Dashboard.storyboard */; };
 		8B2ECD35221BF0C5000084DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2ECD34221BF0C5000084DE /* Assets.xcassets */; };
 		8B2ECD38221BF0C5000084DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2ECD36221BF0C5000084DE /* LaunchScreen.storyboard */; };
 		8B2ECD43221BF0C5000084DE /* RODAFLEETS_VENDORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD42221BF0C5000084DE /* RODAFLEETS_VENDORTests.swift */; };
@@ -37,6 +38,16 @@
 		8B2ECD93221BF154000084DE /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD7B221BF153000084DE /* NotificationViewController.swift */; };
 		8B2ECD94221BF154000084DE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD7C221BF154000084DE /* SettingsViewController.swift */; };
 		8B2ECD96221C08CD000084DE /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ECD95221C08CD000084DE /* CustomGradientView.swift */; };
+		8B496E50224E248300608B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B496E4F224E248300608B78 /* Main.storyboard */; };
+		8B496E54224E271400608B78 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E53224E271400608B78 /* MainViewController.swift */; };
+		8B496E56224E272600608B78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E55224E272600608B78 /* LoginViewController.swift */; };
+		8B496E58224E273A00608B78 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E57224E273A00608B78 /* SignUPViewController.swift */; };
+		8B496E5A224E275B00608B78 /* VerifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E59224E275B00608B78 /* VerifyOTPViewController.swift */; };
+		8B496E5C224E277200608B78 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E5B224E277200608B78 /* PopUpViewController.swift */; };
+		8B496E5F224E2D4300608B78 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E5E224E2D4300608B78 /* Service.swift */; };
+		8B496E61224E2D5100608B78 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E60224E2D5100608B78 /* Login.swift */; };
+		8B496E63224E2D5E00608B78 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E62224E2D5E00608B78 /* SignUp.swift */; };
+		8B496E65224E2D7300608B78 /* VerifyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B496E64224E2D7300608B78 /* VerifyNumber.swift */; };
 		8BB7D87C221E80BD00F68254 /* TrucksVerifiedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7D87B221E80BD00F68254 /* TrucksVerifiedCollectionViewCell.swift */; };
 		8BB7D882221E8DE200F68254 /* DriverVerifiedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7D881221E8DE200F68254 /* DriverVerifiedCollectionViewCell.swift */; };
 		8BB7D886221EA5E500F68254 /* DriverUnverifiedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7D885221EA5E500F68254 /* DriverUnverifiedCollectionViewCell.swift */; };
@@ -87,9 +98,10 @@
 		3BCFD70E19FFB300DF66C28B /* Pods_RODAFLEETS_VENDORTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_VENDORTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7152A9A2BB950DFE708D21 /* Pods-RODAFLEETS-VENDORUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RODAFLEETS-VENDORUITests.debug.xcconfig"; path = "Target Support Files/Pods-RODAFLEETS-VENDORUITests/Pods-RODAFLEETS-VENDORUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7130E101F06DAEA8B73CC9FA /* Pods_RODAFLEETS_VENDORUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RODAFLEETS_VENDORUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1A7464224BA053000188F1 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
 		8B2ECD2A221BF0C1000084DE /* RODAFLEETS-VENDOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RODAFLEETS-VENDOR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2ECD2D221BF0C1000084DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B2ECD32221BF0C1000084DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B2ECD32221BF0C1000084DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Dashboard.storyboard; sourceTree = "<group>"; };
 		8B2ECD34221BF0C5000084DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2ECD37221BF0C5000084DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B2ECD39221BF0C5000084DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,6 +135,16 @@
 		8B2ECD7B221BF153000084DE /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		8B2ECD7C221BF154000084DE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		8B2ECD95221C08CD000084DE /* CustomGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
+		8B496E4F224E248300608B78 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8B496E53224E271400608B78 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8B496E55224E272600608B78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B496E57224E273A00608B78 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		8B496E59224E275B00608B78 /* VerifyOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPViewController.swift; sourceTree = "<group>"; };
+		8B496E5B224E277200608B78 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8B496E5E224E2D4300608B78 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8B496E60224E2D5100608B78 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		8B496E62224E2D5E00608B78 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		8B496E64224E2D7300608B78 /* VerifyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyNumber.swift; sourceTree = "<group>"; };
 		8BB7D87B221E80BD00F68254 /* TrucksVerifiedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucksVerifiedCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BB7D881221E8DE200F68254 /* DriverVerifiedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverVerifiedCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BB7D885221EA5E500F68254 /* DriverUnverifiedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverUnverifiedCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -206,11 +228,12 @@
 			children = (
 				8B2ECD2D221BF0C1000084DE /* AppDelegate.swift */,
 				8BD224B02238EC710021C1B5 /* MarqueeLabel.swift */,
+				8B496E5D224E2D1F00608B78 /* Modal */,
 				8BD224A32238D7510021C1B5 /* Constants */,
 				8B2ECD5B221BF13D000084DE /* Font-Roda */,
 				8B2ECD5E221BF153000084DE /* Views */,
 				8B2ECD66221BF153000084DE /* Controllers */,
-				8B2ECD31221BF0C1000084DE /* Main.storyboard */,
+				8B496E51224E24AD00608B78 /* Storyboards */,
 				8B2ECD34221BF0C5000084DE /* Assets.xcassets */,
 				8B2ECD36221BF0C5000084DE /* LaunchScreen.storyboard */,
 				8B2ECD39221BF0C5000084DE /* Info.plist */,
@@ -255,6 +278,7 @@
 				8B2ECD63221BF153000084DE /* CustomTextfield.swift */,
 				8B2ECD65221BF153000084DE /* CustomTextView.swift */,
 				8B2ECD95221C08CD000084DE /* CustomGradientView.swift */,
+				8B1A7464224BA053000188F1 /* CustomDatePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,6 +286,7 @@
 		8B2ECD66221BF153000084DE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8B496E52224E26EB00608B78 /* LoginControllers */,
 				8B2ECD67221BF153000084DE /* HomeControllers */,
 				8BD224B422390D5F0021C1B5 /* BookingControllers */,
 				8B2ECD77221BF153000084DE /* FindLoadControllers */,
@@ -334,6 +359,38 @@
 				8B2ECD7A221BF153000084DE /* NotificationTableViewCell.swift */,
 			);
 			path = NotificationControllers;
+			sourceTree = "<group>";
+		};
+		8B496E51224E24AD00608B78 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8B496E4F224E248300608B78 /* Main.storyboard */,
+				8B2ECD31221BF0C1000084DE /* Dashboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8B496E52224E26EB00608B78 /* LoginControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B496E53224E271400608B78 /* MainViewController.swift */,
+				8B496E55224E272600608B78 /* LoginViewController.swift */,
+				8B496E57224E273A00608B78 /* SignUPViewController.swift */,
+				8B496E59224E275B00608B78 /* VerifyOTPViewController.swift */,
+				8B496E5B224E277200608B78 /* PopUpViewController.swift */,
+			);
+			path = LoginControllers;
+			sourceTree = "<group>";
+		};
+		8B496E5D224E2D1F00608B78 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				8B496E5E224E2D4300608B78 /* Service.swift */,
+				8B496E60224E2D5100608B78 /* Login.swift */,
+				8B496E62224E2D5E00608B78 /* SignUp.swift */,
+				8B496E64224E2D7300608B78 /* VerifyNumber.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 		8BD224A32238D7510021C1B5 /* Constants */ = {
@@ -488,9 +545,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B496E50224E248300608B78 /* Main.storyboard in Resources */,
 				8B2ECD38221BF0C5000084DE /* LaunchScreen.storyboard in Resources */,
 				8B2ECD35221BF0C5000084DE /* Assets.xcassets in Resources */,
-				8B2ECD33221BF0C1000084DE /* Main.storyboard in Resources */,
+				8B2ECD33221BF0C1000084DE /* Dashboard.storyboard in Resources */,
 				8B2ECD5D221BF13D000084DE /* bahnschrift.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,15 +623,25 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RODAFLEETS-VENDOR/Pods-RODAFLEETS-VENDOR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -616,13 +684,19 @@
 				8B2ECD90221BF154000084DE /* TrucksDocumentViewController.swift in Sources */,
 				8B2ECD83221BF154000084DE /* CustomTextView.swift in Sources */,
 				8B2ECD96221C08CD000084DE /* CustomGradientView.swift in Sources */,
+				8B496E5C224E277200608B78 /* PopUpViewController.swift in Sources */,
 				8BB7D88E221EAFCA00F68254 /* VerifiedTableViewCell.swift in Sources */,
+				8B496E5A224E275B00608B78 /* VerifyOTPViewController.swift in Sources */,
 				8BD224B622390D830021C1B5 /* BookingTableViewCell.swift in Sources */,
 				8BB7D88A221EA9E100F68254 /* DriverVerifiedTableViewCell.swift in Sources */,
+				8B496E58224E273A00608B78 /* SignUPViewController.swift in Sources */,
 				8BB7D882221E8DE200F68254 /* DriverVerifiedCollectionViewCell.swift in Sources */,
+				8B496E63224E2D5E00608B78 /* SignUp.swift in Sources */,
 				8BC90B7D221D4E6E00FFE226 /* SliderVerifiedCollectionViewCell.swift in Sources */,
+				8B496E61224E2D5100608B78 /* Login.swift in Sources */,
 				8BB7D894221EB05900F68254 /* SliderUnverifiedCollectionViewCell.swift in Sources */,
 				8B2ECD85221BF154000084DE /* HomeViewController.swift in Sources */,
+				8B496E56224E272600608B78 /* LoginViewController.swift in Sources */,
 				8B2ECD7D221BF154000084DE /* CustomTextfieldPadding.swift in Sources */,
 				8BB7D890221EAFDD00F68254 /* UnVerifiedTableViewCell.swift in Sources */,
 				8BD224B822390FEF0021C1B5 /* BookingDetailsViewController.swift in Sources */,
@@ -630,6 +704,7 @@
 				8BB7D892221EAFED00F68254 /* SelfVerifiedTableViewCell.swift in Sources */,
 				8B2ECD84221BF154000084DE /* DataCollectionViewCell.swift in Sources */,
 				8BD224AD2238D92F0021C1B5 /* ShipmentTableViewCell.swift in Sources */,
+				8B496E65224E2D7300608B78 /* VerifyNumber.swift in Sources */,
 				8BB7D88C221EA9F200F68254 /* DriverUnVerifiedTableViewCell.swift in Sources */,
 				8BB7D886221EA5E500F68254 /* DriverUnverifiedCollectionViewCell.swift in Sources */,
 				8BD224AB2238D8FA0021C1B5 /* DistanceTableViewCell.swift in Sources */,
@@ -648,8 +723,11 @@
 				8B2ECD8F221BF154000084DE /* TrucksCollectionViewCell.swift in Sources */,
 				8B2ECD8B221BF154000084DE /* DriversViewController.swift in Sources */,
 				8B2ECD2E221BF0C1000084DE /* AppDelegate.swift in Sources */,
+				8B496E54224E271400608B78 /* MainViewController.swift in Sources */,
+				8B1A7465224BA053000188F1 /* CustomDatePicker.swift in Sources */,
 				8BB7D87C221E80BD00F68254 /* TrucksVerifiedCollectionViewCell.swift in Sources */,
 				8B2ECD94221BF154000084DE /* SettingsViewController.swift in Sources */,
+				8B496E5F224E2D4300608B78 /* Service.swift in Sources */,
 				8B2ECD82221BF154000084DE /* CustomTopView.swift in Sources */,
 				8BD224BE223910C70021C1B5 /* DistanceDetailsTableViewCell.swift in Sources */,
 				8B2ECD89221BF154000084DE /* DriverDocumentsViewController.swift in Sources */,
@@ -690,12 +768,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B2ECD31221BF0C1000084DE /* Main.storyboard */ = {
+		8B2ECD31221BF0C1000084DE /* Dashboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8B2ECD32221BF0C1000084DE /* Base */,
 			);
-			name = Main.storyboard;
+			name = Dashboard.storyboard;
 			sourceTree = "<group>";
 		};
 		8B2ECD36221BF0C5000084DE /* LaunchScreen.storyboard */ = {

@@ -21,4 +21,12 @@ class MyUtility : NSObject {
         
     }
     
+    class  func showAlert(_ title:NSString,_ msg:NSString, controller: UIViewController) {
+        let actionSheetController: UIAlertController = UIAlertController(title: title as String, message: msg as String, preferredStyle: .alert)
+        let cancelAction: UIAlertAction = UIAlertAction(title: "Ok", style: .cancel) { action -> Void in
+            //Just dismiss the action sheet
+        }
+        actionSheetController.addAction(cancelAction)
+        controller.present(actionSheetController, animated: true, completion: nil)
+    }
 }

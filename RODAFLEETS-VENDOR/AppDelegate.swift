@@ -44,6 +44,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func login() {
+        
+        let mainStoryBoard : UIStoryboard = UIStoryboard(name: "Dashboard", bundle: nil)
+        let initialViewController : UIViewController = mainStoryBoard.instantiateViewController(withIdentifier: "TabBar") as! UITabBarController
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = initialViewController
+        self.window?.makeKeyAndVisible()
+    }
+
 
 }
 

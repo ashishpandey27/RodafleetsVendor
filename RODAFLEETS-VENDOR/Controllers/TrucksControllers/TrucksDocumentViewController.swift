@@ -29,10 +29,6 @@ class TrucksDocumentViewController: UIViewController {
     }
     
     
-    
-    
-    
-    
     @IBAction func btn_back_Action(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }

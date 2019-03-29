@@ -45,18 +45,18 @@ class AddTruckViewController: UIViewController, UITextViewDelegate, UITextFieldD
         
         txtfieldMobile.delegate = self
         
-        datepicker = UIDatePicker()
-        datepicker?.datePickerMode = .date
-        datepicker?.addTarget(self, action: #selector(dateChanged(datePicker:)), for: .valueChanged)
+//        datepicker = UIDatePicker()
+//        datepicker?.datePickerMode = .date
+//        datepicker?.addTarget(self, action: #selector(dateChanged(datePicker:)), for: .valueChanged)
+//
+//        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(viewTapped(gestureRecognizer:)))
+//        let tapGesture1 = UITapGestureRecognizer(target: self, action: #selector(viewTapped(gestureRecognizer:)))
+//
+//        view.addGestureRecognizer(tapGesture)
+//        view.addGestureRecognizer(tapGesture1)
         
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(viewTapped(gestureRecognizer:)))
-        let tapGesture1 = UITapGestureRecognizer(target: self, action: #selector(viewTapped(gestureRecognizer:)))
-        
-        view.addGestureRecognizer(tapGesture)
-        view.addGestureRecognizer(tapGesture1)
-        
-          txtfieldFitness.inputView = datepicker
-          txtfieldInsurance.inputView = datepicker
+      //    txtfieldFitness.inputView = datepicker
+      //    txtfieldInsurance.inputView = datepicker
         
          // txtfieldExpiryDate.inputView = datepicker
         
@@ -72,28 +72,28 @@ class AddTruckViewController: UIViewController, UITextViewDelegate, UITextFieldD
         navigationController?.navigationBar.barTintColor = UIColor(displayP3Red: 241/255, green: 241/255, blue: 241/255, alpha: 1.0)
     }
     
-    
-    @objc func viewTapped(gestureRecognizer : UITapGestureRecognizer) {
-       
-            view.endEditing(true)
-      
-    }
-    
-    
-    @objc func dateChanged(datePicker: UIDatePicker) {
-        
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "dd-MM-yyyy"
-        
-    
-        
-        txtfieldFitness.text = dateFormatter.string(from: ((datepicker?.date)!))
-        txtfieldInsurance.text = dateFormatter.string(from: ((datepicker?.date)!))
-
-      //   txtfieldExpiryDate.text = dateFormatter.string(from: ((datepicker?.date)!))
-   
-        
-    }
+//    
+//    @objc func viewTapped(gestureRecognizer : UITapGestureRecognizer) {
+//       
+//            view.endEditing(true)
+//      
+//    }
+//    
+//    
+//    @objc func dateChanged(datePicker: UIDatePicker) {
+//        
+//        let dateFormatter = DateFormatter()
+//        dateFormatter.dateFormat = "dd-MM-yyyy"
+//        
+//    
+//        
+//        txtfieldFitness.text = dateFormatter.string(from: ((datepicker?.date)!))
+//        txtfieldInsurance.text = dateFormatter.string(from: ((datepicker?.date)!))
+//
+//      //   txtfieldExpiryDate.text = dateFormatter.string(from: ((datepicker?.date)!))
+//   
+//        
+//    }
     
 
     
@@ -103,10 +103,7 @@ class AddTruckViewController: UIViewController, UITextViewDelegate, UITextFieldD
     
     @IBAction func btn_uploadDocument_action(_ sender: Any) {
     
-        let storyboard = UIStoryboard(name: "Main", bundle: nil);
-        let viewName:NSString = "TrucksDocumentViewController"
-        let vc = storyboard.instantiateViewController(withIdentifier: viewName as String) as! TrucksDocumentViewController
-        self.navigationController?.show(vc, sender: self);
+        MyUtility.showController(selfController: self, storyboard: StoryboardName.Dashboard, identifier: ViewIdentifiers.TrucksDocuments)
     }
     
     

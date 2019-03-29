@@ -100,10 +100,7 @@ class AddDriverViewController: UIViewController {
     
     @IBAction func btn_uploadDocument_action(_ sender: Any) {
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil);
-        let viewName:NSString = "DriverDocumentsViewController"
-        let vc = storyboard.instantiateViewController(withIdentifier: viewName as String) as! DriverDocumentsViewController
-        self.navigationController?.show(vc, sender: self);
+        MyUtility.showController(selfController: self, storyboard: StoryboardName.Dashboard, identifier: ViewIdentifiers.DriverDocuments)
     }
     
     

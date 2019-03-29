@@ -1769,7 +1769,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="   24-08-09" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eHU-Ih-af6" customClass="CustomTextfield" customModule="RODAFLEETS_VENDOR" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="   24-08-09" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eHU-Ih-af6" customClass="CustomDatePicker" customModule="RODAFLEETS_VENDOR" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="1203" width="162" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="miS-vm-a4r"/>
@@ -1787,7 +1787,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="   24-08-09" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7As-2M-KAu" customClass="CustomTextfield" customModule="RODAFLEETS_VENDOR" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="   24-08-09" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7As-2M-KAu" customClass="CustomDatePicker" customModule="RODAFLEETS_VENDOR" customModuleProvider="target">
                                                 <rect key="frame" x="193" y="1203" width="162" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="iuy-NU-18a"/>

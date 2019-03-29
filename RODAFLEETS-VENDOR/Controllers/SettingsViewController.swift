@@ -28,18 +28,11 @@ class SettingsViewController: UIViewController {
         
     }
     @IBAction func add_truck_action(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil);
-        let viewName:NSString = "TrucksViewController"
-        let vc = storyboard.instantiateViewController(withIdentifier: viewName as String) as! TrucksViewController
-        self.navigationController?.show(vc, sender: self);
+         MyUtility.showController(selfController: self, storyboard: StoryboardName.Dashboard, identifier: ViewIdentifiers.Trucks)
     }
     
     @IBAction func add_driver_action(_ sender: Any) {
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: nil);
-        let viewName:NSString = "DriversViewController"
-        let vc = storyboard.instantiateViewController(withIdentifier: viewName as String) as! DriversViewController
-        self.navigationController?.show(vc, sender: self);
+         MyUtility.showController(selfController: self, storyboard: StoryboardName.Dashboard, identifier: ViewIdentifiers.Drivers)
     }
     
     

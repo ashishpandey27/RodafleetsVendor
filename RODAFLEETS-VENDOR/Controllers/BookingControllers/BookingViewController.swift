@@ -52,12 +52,7 @@ class BookingViewController: UIViewController, UITableViewDataSource, UITableVie
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil);
-        let viewName:NSString = "LoadDetailsViewController"
-        let vc = storyboard.instantiateViewController(withIdentifier: viewName as String) as! LoadDetailsViewController
-        self.navigationController?.show(vc, sender: self)
-        
-        
+        MyUtility.showController(selfController: self, storyboard: StoryboardName.Dashboard, identifier: ViewIdentifiers.LoadDetails)
     }
     
     

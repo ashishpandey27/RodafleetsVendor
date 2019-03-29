@@ -160,10 +160,7 @@ class DriversViewController: UIViewController, UICollectionViewDataSource, UICol
     
     
     @IBAction func btn_add_action(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil);
-        let viewName:NSString = "AddDriverViewController"
-        let vc = storyboard.instantiateViewController(withIdentifier: viewName as String) as! AddDriverViewController
-        self.navigationController?.show(vc, sender: self);
+        MyUtility.showController(selfController: self, storyboard: StoryboardName.Dashboard, identifier: ViewIdentifiers.AddDriver)
     }
     
     
