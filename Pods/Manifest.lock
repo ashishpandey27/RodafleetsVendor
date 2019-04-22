@@ -1,16 +1,138 @@
 PODS:
+  - Alamofire (4.8.1)
+  - AlamofireImage (3.5.0):
+    - Alamofire (~> 4.8)
+  - DLRadioButton (1.4.12)
+  - DropDown (2.3.12)
+  - Firebase/Core (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.5.0)
+  - Firebase/CoreOnly (5.16.0):
+    - FirebaseCore (= 5.2.0)
+  - Firebase/Messaging (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.3.0)
+  - FirebaseAnalytics (5.5.0):
+    - FirebaseCore (~> 5.2)
+    - FirebaseInstanceID (~> 3.4)
+    - GoogleAppMeasurement (= 5.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.1.0)
+  - FirebaseCore (5.2.0):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.4.0):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.3.0):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 5.2)
+    - FirebaseInstanceID (~> 3.4)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - GoogleAppMeasurement (5.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.7):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.7)
+  - GoogleUtilities/Logger (5.3.7):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.7):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.7):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.7)"
+  - GoogleUtilities/Reachability (5.3.7):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.7):
+    - GoogleUtilities/Logger
   - IQKeyboardManagerSwift (6.2.0)
+  - MarqueeLabel/Swift (3.2.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - Protobuf (3.6.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
+  - TRON (4.0.0):
+    - Alamofire (~> 4.5)
+    - TRON/SwiftyJSON (= 4.0.0)
+  - TRON/Core (4.0.0):
+    - Alamofire (~> 4.5)
+  - TRON/SwiftyJSON (4.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0)
+    - TRON/Core
 
 DEPENDENCIES:
+  - AlamofireImage
+  - DLRadioButton (~> 1.4)
+  - DropDown
+  - Firebase/Core
+  - Firebase/Messaging
   - IQKeyboardManagerSwift
+  - MarqueeLabel/Swift
+  - SVProgressHUD
+  - TRON (= 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - DLRadioButton
+    - DropDown
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleUtilities
     - IQKeyboardManagerSwift
+    - MarqueeLabel
+    - nanopb
+    - Protobuf
+    - SVProgressHUD
+    - SwiftyJSON
+    - TRON
 
 SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireImage: 1aea346f4dda2f6c67622fa5a89fcbb80d79cc16
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  DropDown: 0bcc278799ec11a3d34ce1aac9367fbbaf5423d9
+  Firebase: 749a8ff4962f9d8c79dda1966de20f6f77583d67
+  FirebaseAnalytics: d35d47c03c50c73c14a7fd31463c5775843e78a9
+  FirebaseAnalyticsInterop: e5f21be9af6548372e2f0815834ff909bff395a2
+  FirebaseCore: ea2d1816723ef21492b8e9113303e1350db5e08c
+  FirebaseInstanceID: 97ea7a5dca9afd72c79bfcdddb7a44aa1cbb42a1
+  FirebaseMessaging: acbd51fe1a172bf29abaaa6e93a60f98bbf8e4f9
+  GoogleAppMeasurement: 621f3bc6211d5ba548debe01fafad30cf5ab6859
+  GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
   IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  MarqueeLabel: 440a502b91a9179bd98f9fff00ba1150650a1c0e
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  TRON: 71694d7d590fa7638688b71008510576c293bda3
 
-PODFILE CHECKSUM: 315a65f15b5c4e3fd2d86bd64ef1e9027ecf89ae
+PODFILE CHECKSUM: 22a921001dbd1e7c2cbbd96d9fdceac6404e97ab
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.6.1

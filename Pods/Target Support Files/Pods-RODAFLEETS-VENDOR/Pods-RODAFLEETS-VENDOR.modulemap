@@ -1,6 +1,0 @@
-framework module Pods_RODAFLEETS_VENDOR {
-  umbrella header "Pods-RODAFLEETS-VENDOR-umbrella.h"
-
-  export *
-  module * { export * }
-}
